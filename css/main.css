@@ -1,0 +1,74 @@
+.height{   
+    min-height: 100vh;
+}
+.title-underline{
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+}
+.titulo-principal{
+    font-size: 11vh;
+}
+.imagen{
+    width: 60px;
+}
+.imagen-pequenia{
+    width: 35px;
+}
+.img-fondo{
+    background: linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.9)),
+    url(../images/nerve-cell-2213009_1920.jpg);
+    background-attachment: fixed;
+}
+.img-tarjeta{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.contenido-tarjeta{
+    max-height: 200px;
+    overflow: scroll;
+}
+.height-80{   
+    min-height: 80vh;
+}
+.about-picture{
+/*    background: url(../images/city.jpg) center/cover no-repeat fixed;*/
+    background: url(../images/dibujoCerebro.jpg);
+    background-size: contain;
+    background-position: inherit;
+    background-attachment: fixed;
+    background-repeat: round;
+}
+#mapeoCerebral, #progress{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.9)), url(../images/dominioHemisferiosLaterales/1.png) center/cover no-repeat fixed;
+}
+.btnHome{
+    width: 10vh;
+}
+.img-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+.store-img {
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  .img-container:hover .store-img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+.tamanioImagen{
+    width: 45%;
+}
+
+
+  .textoInformativo{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+  }
+/*#header{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.9)), url(../images/citya.jpg) center/cover no-repeat fixed;
+}*/

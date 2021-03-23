@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto creatividad</title>
+
+    <!--    Bootstrap    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--    CSS Principal   -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function cambia(val){
+            var nodos = document.getElementById(val);
+            var atributo = nodos.attributes.getNamedItem("src").nodeValue;
+            var elementoRecibe = document.getElementById("imagenCambia");
+            elementoRecibe.setAttribute("src", atributo);
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+
+    <header id="header" class="bg-dark img-fondo">
+        <div class="container">
+            <div class="row height align-items-center">
+                <div class="col">
+                    <h1 class="text-light text-center text-uppercase font-weight-bold font-italic titulo-principal"><strong>Hemisferios cerebrales</strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    End of header section-->
+
+    <!--    Integrantes Section-->
+    <section id="integrantes" class="py-5 bg-light">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>Team</strong>
+                    </h1>
+                    <div class="title-underline bg-warning mb-5"></div>
+                    <h5 class="mb-4">Realizamos un test de personalidad, y podrá ver la opinión de cada miembro del equipo 
+                        al dar click en su botón correspondiente.
+                    </h5>
+                </div>
+            </div>
+            <!--            End of title-->
+
+            <div class="row">
+                
+                <!--               Team member-->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="images/equipo/elizabeth.jpg" class="card-img-top img-tarjeta" alt="">
+                        <div class="card-body contenido-tarjeta">
+                            <h5 class="card-title text-capitalize">Elizabeth Lorena Guerrero Torres</h5>
+                            
+                            <a href="" class="mx-auto btn btn-outline-warning text-uppercase" data-toggle="modal" data-target="#modalELGT">Presiona aquí</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-between">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--               End of team member-->
+                <!--               Team member-->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="images/equipo/daniel.png" class="card-img-top img-tarjeta" alt="">
+                        <div class="card-body contenido-tarjeta">
+                            <h5 class="card-title text-capitalize">Victor Daniel Lobatón Medina</h5>
+                            
+                            <a href="" class="mx-auto btn btn-outline-warning text-uppercase" data-toggle="modal" data-target="#modalVDLM">Presiona aquí</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-between">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--               End of team member-->
+                <!--               Team member-->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="images/equipo/gail.jpg" class="card-img-top img-tarjeta" alt="">
+                        <div class="card-body contenido-tarjeta">
+                            <h5 class="card-title text-capitalize">Gail Keegan López Monares</h5>
+                            
+                            <a href="" class="mx-auto btn btn-outline-warning text-uppercase" data-toggle="modal" data-target="#modalGKLM">Presiona aquí</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-between">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--               End of team member-->
+                <!--               Team member-->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="images/equipo/angelica.jpg" class="card-img-top img-tarjeta" alt="">
+                        <div class="card-body contenido-tarjeta">
+                            <h5 class="card-title text-capitalize">Angélica Pérez Becerra</h5>
+                            
+                            <a href="" class="mx-auto btn btn-outline-warning text-uppercase" data-toggle="modal" data-target="#modalAPB">Presiona aquí</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-between">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--               End of team member-->
+                <!--               Team member-->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="images/equipo/annie.jpg" class="card-img-top img-tarjeta" alt="">
+                        <div class="card-body contenido-tarjeta">
+                            <h5 class="card-title text-capitalize">Annie Sofía Torres Luna</h5>
+                            
+                            <a href="" class="btn btn-outline-warning text-uppercase" data-toggle="modal" data-target="#modalASTL">Presiona aquí</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-between">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--               End of team member-->
+                
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!--    End of integrantes section-->
+
+    <!--    Sabías que Section-->
+    <section id="sabiasQue" class="bg-info">
+        <div class="container-fluid">
+            <div class="row">
+                <!--            About img col-->
+                <div class="col-md-6 about-picture">
+
+                </div>
+                <!--            About text col-->
+                <div class="col-md-6 about-text height-80 px-5 d-flex align-items-center justify-content-center">
+                    <div class="about-text-center">
+                        <!--           Title-->
+                        <div class="row">
+                            <div class="col text-center">
+                                <h1 class="display-4 text-uppercase text-dark mb-0">
+                                    <strong>¿Sabías que...?</strong>
+                                </h1>
+                                <div class="title-underline bg-warning my-3"></div>
+                                <h4 class="text-light">A pesar de que el cerebro es el encargado de procesar las señales dolorosas, no tiene receptores de dolor</h4>
+                            </div>
+                        </div>
+                        <!--            End of title-->
+                        <!--               Single Item-->
+                            
+                        <!--                End of single item-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of sabías que Section-->
+
+    <!--   Indice section-->
+    <section id="indice" class="py-5 bg-white">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>Índice</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                </div>
+            </div>
+            <!--            End of title-->
+            <div class="row text-center my-5">
+                <!--              Card-->
+                <div class="col-md-6 col-lg-4 text-center my-4">
+                    <div class="card">
+                        <!--                       Card header-->
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-3">
+                            <h4>Descripción anatómica</h4>
+                        </div>
+                        <!--                        Card title-->
+                        <div class="card-title text-center my-3">
+                            
+                        </div>
+                        <!--                        Card footer-->
+                        <div class="card-footer">
+                            <a href="#descripcionAnatomica" class="btn btn-outline-danger btn-block text-capitalize">¡Llévame ahí!</a>
+                        </div>
+                    </div>
+                </div>
+                <!--               End of card-->
+                <!--              Card-->
+                <div class="col-md-6 col-lg-4 text-center my-4">
+                    <div class="card">
+                        <!--                       Card header-->
+                        <div class="card-header bg-danger text-white text-uppercase text-center py-3">
+                            <h4>Neuromanagement</h4>
+                        </div>
+                        <!--                        Card title-->
+                        <div class="card-title text-center my-3">
+                            
+                        </div>
+                        <!--                        Card footer-->
+                        <div class="card-footer">
+                            <a href="#neuromanagement" class="btn btn-outline-danger btn-block text-capitalize">¡Llévame ahí!</a>
+                        </div>
+                    </div>
+                </div>
+                <!--               End of card-->
+                <!--              Card-->
+                <div class="col-md-6 col-lg-4 text-center my-4">
+                    <div class="card">
+                        <!--                       Card header-->
+                        <div class="card-header bg-warning text-white text-uppercase text-center py-3">
+                            <h4>Lateralidad hemisférica</h4>
+                        </div>
+                        <!--                        Card title-->
+                        <div class="card-title text-center my-3">
+                            
+                        </div>
+                        <!--                        Card footer-->
+                        <div class="card-footer">
+                            <a href="#lateralidadHemisferica" class="btn btn-outline-danger btn-block text-capitalize">¡Llévame ahí!</a>
+                        </div>
+                    </div>
+                </div>
+                <!--               End of card-->
+                <!--              Card-->
+                <div class="col-md-6 col-lg-4 text-center my-4">
+                    <div class="card">
+                        <!--                       Card header-->
+                        <div class="card-header bg-success text-white text-uppercase text-center py-3">
+                            <h4>Mapeo cerebral</h4>
+                        </div>
+                        <!--                        Card title-->
+                        <div class="card-title text-center my-3">
+                            
+                        </div>
+                        <!--                        Card footer-->
+                        <div class="card-footer">
+                            <a href="#mapeoCerebral" class="btn btn-outline-danger btn-block text-capitalize">¡Llévame ahí!</a>
+                        </div>
+                    </div>
+                </div>
+                <!--               End of card-->
+
+                <!--              Card-->
+                <div class="col-md-6 col-lg-4 text-center my-4">
+                    <div class="card">
+                        <!--                       Card header-->
+                        <div class="card-header bg-dark text-white text-uppercase text-center py-3">
+                            <h4>El dominio de los hemisferios cerebrales</h4>
+                        </div>
+                        <!--                        Card title-->
+                        <div class="card-title text-center my-3">
+                            
+                        </div>
+                        <!--                        Card footer-->
+                        <div class="card-footer">
+                            <a href="#hemisferiosCereb" class="btn btn-outline-danger btn-block text-capitalize">¡Llévame ahí!</a>
+                        </div>
+                    </div>
+                </div>
+                <!--               End of card-->                
+
+            </div>
+        </div>
+    </section>
+    <!--   End of indice section-->
+
+
+    <!--    Descripción anatómica-->
+    <section id="descripcionAnatomica" class="py-5" style="background-color: #dce3de;">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-2">
+                        <strong>DESCRIPCIÓN ANATÓMICA</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                    <h3 class="text-dark mt-3 mb-5">¡Prueba poner el puntero del mouse en cada imagen!</h3>
+                </div>
+            </div>
+            <!--            End of title-->
+
+            <!-- store items -->
+            <div class="row store-items" id="store-items">
+                <!-- single items -->
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/descripcionAnatomica/1.png" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 mx-auto my-auto my-3 textoInformativo">
+                    <p>
+                        El cerebro es el órgano que alberga las neuronas (células) que se
+                        activan durante los procesos cerebrales y que conllevan funciones
+                        mentales. Es el cerebro el que crea las realidades de satisfacción,
+                        desarrollando patrones de comportamiento que cada persona
+                        representa de una manera diferente (Malfitano Óscar)
+                    </p>
+                </div>
+                <!--Fin item-->
+
+                <div class="col-10 mx-auto text-center mt-5">
+                    <h1>Existen tres cerebros</h1>
+                </div>
+                <!--Item-->
+                <div class="col-5 mx-auto my-auto mt-5 textoInformativo">
+                    <h3><strong>Cerebro primitivo o reptil:</strong></h3>
+                    <p>
+                        Regula las reacciones básicas e instintivas de nuestro
+                        comportamiento y es la sede del poderoso inconsciente;
+                    </p>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 mt-5 mb-5 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/descripcionAnatomica/2.png" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--Fin item-->
+                <!--Item-->
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-auto mt-5 mb-5 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/descripcionAnatomica/3.png" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 mx-auto my-3 mt-5 mb-5 textoInformativo">
+                    <h3><strong>El cerebro antiguo (mamífero) o límbico</strong></h3>
+                    <p>
+                        Regula los comportamientos emotivos y sensaciones del ser
+                        humano, crea nuestro sistema de referencias y nos ayuda a
+                        entender el significado de las cosas, nuestra personalidad, nuestros
+                        recuerdos;
+                    </p>
+                </div>
+                <!--Fin item-->
+                <!--Item-->
+                <div class="col-5 mx-auto my-3 mt-5 mb-5 textoInformativo">
+                    <h3><strong>El cerebro nuevo (humano) o córtex (Sites, 2013)</strong></h3>
+                    <p>
+                        Estaba formado por dos hemisferios. Los hemisferios cerebrales ocupan la mayor parte del interior del cráneo, representan
+                        aproximadamente un 80% del peso del cerebro, contienen cerca del 70 % de la
+                        neuronas
+                    </p>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-auto mt-5 mb-5 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/descripcionAnatomica/4.png" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--Fin item-->
+                <!--Item-->
+                    <div class="col-10 mx-auto mt-5 text-center">
+                        <h3><strong>Hemisferios</strong></h3>
+                    </div>
+                    <!--              Card-->
+                    <div class="col-md-6 my-4">
+                        <div class="card">
+                            <!--                       Card header-->
+                            <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                                <h3>Izquierdo</h3>
+                            </div>
+                            <!--                        List-->
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item">Es analítico, preciso, lógico y numérico</li>
+                                <li class="list-group-item">Se dedica básicamente a los detalles</li>
+                                <li class="list-group-item">Es el centro del pensamiento racional</li>
+                                <li class="list-group-item">Procesa estímulos relativamente tenues y en rápido movimiento</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--               End of card-->
+                    <!--              Card-->
+                    <div class="col-md-6 my-4">
+                        <div class="card">
+                            <!--                       Card header-->
+                            <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                                <h3>Derecho</h3>
+                            </div>
+                            <!--                        List-->
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item">Es creativo, imaginativo, soñador y de pensamientos holísticos,</li>
+                                <li class="list-group-item">Capta integralmente el entorno.</li>
+                                <li class="list-group-item">Es el centro del pensamiento emocional.</li>
+                                <li class="list-group-item">Procesa estímulos
+                                    mucho más intensos e inmóviles, inclusive los
+                                    estímulos claramente estáticos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--               End of card-->
+                <!--Fin item-->
+                <!--Item-->
+                    <div class="col-10 mx-auto mt-5 text-center textoInformativo">
+                        <p>
+                            Cada hemisferio cerebral está subdividido en cinco
+                            partes (lóbulos), cada lóbulo lleva el nombre de los
+                            huesos que le dan cabida : lóbulo parietal , lóbulo
+                            occipital, lóbulo temporal, lóbulo frontal, ínsula, límbico.
+                            El insular y el límbico no son verdaderos lóbulos; el lóbulo
+                            límbico es el que se relaciona en particular con funciones
+                            viscerales y de la conducta
+                        </p>
+                        <img src="images/descripcionAnatomica/1.png" class="mb-5" alt="" style="width: 50%;">
+                    </div>
+                <!--Fin item-->
+                <!--Item-->
+                <div class="col-10 mx-auto mt-5 text-center textoInformativo">
+                    <p>
+                        Cada parte del cerebro, como hemos visto, tiene una
+                        función específica, el córtex piensa, el límbico siente, el
+                        reptil decide, pero toma en consideración los resultados
+                        de los otros dos y comparte sus deducciones, pero sólo
+                        él controla las decisiones (Reinvoisé Patrick, 2006).
+                    </p>
+                </div>
+                <!--Fin item-->
+        </div>  
+            <!--Boton home-->
+            <div class="row mt-5">
+                <div class="col-10 mx-auto text-center">
+                    <a href="#indice" class="mx-auto">
+                        <img src="images/botonHome.png" class="btnHome" alt="">
+                    </a>
+                    <p>Regresar al índice</p>
+                </div>
+            </div>
+            <!--fin botón home-->
+    </section>
+    <!--    End of projects-->
+
+ <!-- store section -->
+ <section id="neuromanagement" class="store py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row mb-5">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">NEURO<strong class="banner-title">MANAGEMENT</strong></h1>
+        </div>
+      </div>
+      <!-- end section title -->
+      <div class="row">
+          <div class="col-5 mx-auto">
+              <p class="textoInformativo" style="border: dotted;border-color: indigo;">
+                Cada vez que hablamos con alguien tiene su
+                importancia las estructuras lógico -
+                lingüísticas. Pero al mismo tiempo los seres
+                humanos tenemos una parte emocional,
+                tenemos una parte donde los sentimientos
+                juegan un papel muy importante cuando
+                tenemos que tomar decisiones, la tomamos
+                según los beneficios por lo bien que nos
+                vamos a sentir al tomar esa decisión, o a
+                veces lo mal que nos podríamos sentir de no
+                tomar esa decisión.
+              </p>
+          </div>
+          <div class="col-5 mx-auto my-auto">
+              <img src="images/neuromanagement/1.webp" style="width: 90%;">
+          </div>
+          <div class="col-8 textoInformativo mx-auto mt-5 mb-4" style="border: dotted;border-color: teal;">
+              <p>
+                Cada uno de nosotros necesita complementar esa parte racional con esa parte
+                emocional, encontrar la justa medida de qué carga racional y de qué carga emocional
+                necesita cada persona es una de las partes más importantes de la persuasión.
+              </p>
+          </div>
+          <div class="col-5 mx-auto mt-5" style="border: dotted;border-color: tomato;">
+            <p class="textoInformativo">
+                Las mejores decisiones que tomamos en la
+                vida (en contra de lo que se pensó durante
+                
+                muchos años) tienen una base emocional-
+                metaconsciente, y las funciones ejecutivas del
+                
+                cerebro (que son las que necesitamos para
+                razonar, planificar, elegir cursos de acción) no
+                pueden operar a pleno sin un adecuado
+                liderazgo emocional. Es aquí donde hace su
+                aparición la Nauromanegement.
+            </p>
+        </div>
+        <div class="col-5 mx-auto mt-5 my-auto">
+            <img src="images/neuromanagement/corazon.png" style="width: 90%;" alt="">
+        </div>
+        <div class="col-5 mx-auto mt-5" style="border: dotted;border-color: seagreen;">
+            <p class="textoInformativo">
+                El objetivo principal del neuromanagement es
+                entrenar el cerebro del directivo para que
+                pueda responder exitosamente con la
+                velocidad que tiene que actuar.
+            </p>
+        </div>
+        <div class="col-5 mx-auto mt-5 mb-5 my-auto">
+            <img src="images/neuromanagement/train.png" style="width: 90%;" alt="">
+        </div>
+      </div>
+
+     
+            <!--Boton home-->
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <a href="#indice" class="mx-auto">
+                        <img src="images/botonHome.png" class="btnHome" alt="">
+                    </a>
+                    <p>Regresar al índice</p>
+                </div>
+            </div>
+            <!--fin botón home-->
+      <!-- end of store items -->
+    </div>
+  </section>
+  <!-- end of store section -->
+
+
+
+
+    <!--    Carrousel Lateralidad hemisférica section-->
+    <section id="lateralidadHemisferica" class="py-5" style="background-color: darkslateblue;">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-light mb-0">
+                        <strong>LATERALIDAD HEMISFÉRICA</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                    
+                </div>
+            </div>
+            <!--            End of title-->
+
+            <!--Contenido-->
+            <div class="row mt-5" style="color: #fff;">
+                <div class="col-10 mx-auto textoInformativo">
+                    <h1>Neuronas</h1>
+                    <p>El cerebro está formado principalmente por ellas. Tiene un núcleo principal, de dendritas de las cuales salen algunas “espinas” que conectan con otras neuronas y un axón.
+                    </p>
+                </div>
+                <div class="col-10 mx-auto d-flex justify-content-around mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/neuronas.png" class="tamanioImagen" alt="">
+                    <img src="images/lateralidadHemisferica/neuronas2.png" class="tamanioImagen" alt="">
+                </div>
+                <div class="col-10 mx-auto mt-5 textoInformativo">
+                    <h1>El tamaño del cerebro no tiene relación con la inteligencia</h1>
+                    <p>Las diferencias entre el volumen y el tamaño del cerebro, no significan diferencias intelectuales</p>
+                </div>
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/esqueletos.png" class="tamanioImagen" alt="">
+                </div>
+                <div class="col-10 mx-auto textoInformativo">
+                    <h1>El cerebelo</h1>
+                    <p>Controla y coordina los movimientos de los músculos, si se lesiona puede producir movimientos descontrolados.</p>
+                </div>
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/cerebelo.png" class="tamanioImagen" alt="">
+                </div>  
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <h1>Diencéfalo</h1>
+                    <p>Controla las emociones y movimientos automáticos. Tiene  el tálamo,  hipotálamo, glándula pituitaria, y amígdala y entre ellos la sustancia reticular
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/diencefalo.png" class="tamanioImagen" alt="">
+                </div>   
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <h1>Bulbo raquídeo</h1>
+                    <p>Una lesión en él, podría matarnos ya que regula el funcionamiento de los músculos respiratorios, el corazón, la vida sexual. Se encuentra en la continuación de la médula hacia el cráneo.
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/1.jpg" class="tamanioImagen" alt="">
+                </div>    
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <h1>Médula espinal y nervios</h1>
+                    <p>La médula espinal se encuentra protegida por la columna vertebral, es la continuación del bulbo ráquideo. Los nervios que provienen de la medula espinal, se dirigen a diferentes órganos del cuerpo, miembros y células. Llegando así a todo el cuerpo 
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/medula.jpg" class="tamanioImagen" alt="">
+                </div>   
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <h1>Las neuronas y los neurotransmisores</h1>
+                    <p>La sinapsis se realiza a travéz de la conexion entre partes de la neurona como la dendrita y el axón. Mediante un pequeño espacio que las separa para producir el intercambio de neurotransmisores, los cuales son consecuencia de la actividad cerebral.
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/neurotrans.jpg" class="tamanioImagen" alt="">
+                </div>    
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <h1>Hemisferios cerebrales</h1>
+                    <p>Un hallazgo interesante fue que al afectarse el hemisferio izquierdo la capacidad del habla, solía afectar también. Entre otras investigaciones, se concluyó que cada hemisferio controla al movimiento del cuerpo en lados contrarios. 
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-3">
+                    <img src="images/lateralidadHemisferica/hemisferios.jpg" class="tamanioImagen" alt="">
+                </div>  
+                <div class="col-10 mx-auto textoInformativo mt-3 mb-5">
+                    <p>Un dato curioso que se descubrió también es que cada ojo envía información a ambos hemisferios y se procesa la información de manera simultánea.
+                    </p>
+                </div>  
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <p>Edward de Bono planteó  que para lograr ser creativos, se debería de dejar de lado los comportamientos que provengan del lado izquierdo, lo cual se comprobó que era erróneo porque para ser creativos se necesitan ambos hemisferios, su combinación enriquece a la propia creatividad. 
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/debono.jpg" class="tamanioImagen" alt="">
+                </div>   
+                <div class="col-10 mx-auto textoInformativo mt-5">
+                    <p>Finalmente, para concluir el tema una imagen sobre la división de los hemisferios en lóbulos junto con sus funciones. 
+                    </p>
+                </div> 
+                <div class="col-10 mx-auto text-center mt-3 mb-5">
+                    <img src="images/lateralidadHemisferica/cuadrantes.png" style="width:90%" alt="">
+                </div>                      
+            </div>
+
+
+            <!--Fin del contenido-->
+
+            <!--Boton home-->
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <a href="#indice" class="mx-auto">
+                        <img src="images/botonHome.png" class="btnHome" alt="">
+                    </a>
+                    <p>Regresar al índice</p>
+                </div>
+            </div>
+            <!--fin botón home-->
+        </div>
+    </section>
+    <!--    End of carrousel section-->
+
+    <!--   mapeoCerebral section-->
+    <section id="mapeoCerebral" class="p-5">
+        <div class="container">
+            <!--Title-->
+            <div class="row mb-5">
+                <div class="col-md-6 mx-auto text-center">
+                    <h1 class="text-light">MAPEO CEREBRAL</h1>
+                    
+                </div>
+            </div>
+            <!--End of title-->
+            <!--Contenido-->
+            <div class="row mb-5">
+                <div class="col-10 mx-auto text-center text-light">
+                    <h5>Si se pudiera resumir en un concepto la sensación que
+                        te produce tu trabajo, ¿cuál sería?</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/1.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto text-center text-light mt-5">
+                    <h5>Ned Herrmann, se desempeñó en muchas áreas desde
+                        música hasta física, el hecho de que fueran áreas tan
+                        dispares lo motivó a indagar más sobre el funcionamiento
+                        cerebral y, con ello, diseñar programas de formación
+                        orientados a mantener o aumentar la productividad, la
+                        motivación y la creatividad.</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/2.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto text-left text-light mt-5">
+                    <h5>La dominancia en uno u otros cuadrantes implica
+                        diferentes formas de interpretar, actuar, crear y
+                        aprender.</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/3.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto text-right text-light mt-5">
+                    <h5>Frontal izquierdo, predomina la
+                        estructura. Habilidades para matemáticas
+                        y finanzas; analizar, priorizar y debatir.</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/4.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto text-left text-light mt-5">
+                    <h5>Frontal derecho. Pensamiento
+                        imaginativo y espacial: innovación y
+                        creatividad, sentido del humor, toma de
+                        riesgo, alta capacidad en solución de
+                        problemas.</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/5.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto text-right text-light mt-5">
+                    <h5>Basal izquierdo. Aquí se alojan características como la
+                        eficiencia, la aptitud en ahorrar tiempo y dinero, dar
+                        seguimiento a procesos, monitorear y controlar.</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/6.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto text-left text-light mt-5">
+                    <h5>Basal derecho. Están presentes
+                        capacidades para ser empático, construir
+                        confianza, mantener el espíritu en los
+                        equipos, desarrollar el sentimiento de
+                        pertenencia, además de que son
+                        personas intuitivas.</h5>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-8 mx-auto my-3 mb-5 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/7.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5 mx-auto my-auto mt-5 text-center text-light mt-5">
+                    <h5>Las preferencias cerebrales no implican
+                        ser más inteligente o tener más
+                        competencias entre unas u otras
+                        personas.</h5>
+                </div>
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-5 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/8.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5 col-sm-8 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                        <img src="images/mapeoCerebral/9.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 mx-auto mt-5 text-center text-light mt-5">
+                    <h5>Tener un mapeo cerebral, a través del cual
+                        la persona identifique sus capacidades
+                        naturales, puede ayudar a elegir carrera,
+                        definir una trayectoria profesional e,
+                        incluso, ver en qué áreas es posible
+                        trabajar.</h5>
+                </div>
+
+            </div>
+            <!--End of contenido-->
+
+            <div class="row mt-5">
+                <div class="col-10 mt-5 pt-4 mx-auto text-center text-light">
+                    <h2>También realizamos una maqueta del cerebro, de la cual
+                        agregamos a continuación un video y una pequeña galería
+                    </h2>
+                </div>
+                <div class="col-10 mt-5 mb-5 pt-4 mx-auto text-center text-light">
+                    <a target="blank"  href="https://drive.google.com/file/d/1HSIgjQmzi7ye5QHchQU3HpDFFURcPt1z/view?usp=sharing">
+                        <img src="images/mapeoCerebral/botonPlay.png" style="width: 20%;" alt="">
+                    </a>
+                </div>
+                <div class="col-md-8 mx-auto mt-5 text-center">
+                    <div id="example" class="carousel slide" data-ride='carousel'>
+                        <!--                   Indicators-->
+                        <ul class="carousel-indicators">
+                            <li data-target="#example" data-slide-to="0" class="active"></li>
+                            <li data-target="#example" data-slide-to="1"></li>
+                            <li data-target="#example" data-slide-to="2"></li>
+                            <li data-target="#example" data-slide-to="3"></li>
+                            <li data-target="#example" data-slide-to="4"></li>
+                            <li data-target="#example" data-slide-to="5"></li>
+                        </ul>
+                        <!--                    Images-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" interval="false">
+                                <img src="images/mapeoCerebral/cerebro1.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" interval="false">
+                                <img src="images/mapeoCerebral/cerebro2.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" interval="false">
+                                <img src="images/mapeoCerebral/cerebro3.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" interval="false">
+                                <img src="images/mapeoCerebral/cerebro4.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" interval="false">
+                                <img src="images/mapeoCerebral/cerebro5.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" interval="false">
+                                <img src="images/mapeoCerebral/cerebro6.jpg" alt="" class="d-block w-100">
+                            </div>
+                        </div>
+                        <!--                    End of images                             -->
+                        <!--              Controls-->
+                        <a href="#example" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#example" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+                <!--Boton home-->
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <a href="#indice" class="mx-auto">
+                            <img src="images/botonHome.png" class="btnHome bg-light" alt="">
+                        </a>
+                        <p class="text-light">Regresar al índice</p>
+                    </div>
+                </div>
+                <!--fin botón home-->
+        </div>
+    </section>
+    <!--   End of filler section-->
+
+
+    <!--    Dominio Hemisferios Cerebrales-->
+    <section id="hemisferiosCereb" class="p-5" style="background-color: #477998;">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>DOMINIO DE LOS HEMISFERIOS CEREBRALES</strong>
+                    </h1>
+                    <div class="title-underline bg-danger mb-5"></div>
+                </div>
+            </div>
+            <!--            End of title-->
+            <div class="row textoInformativo mt-5">
+                <div class="col-md-4">
+                    <img src="images/dominioHemisferiosLaterales/cerebro1.jpg" class="img-fluid img-thumbnail mb-5" alt="">
+                    <p class="text-light">En encéfalo humano distribuye las funciones entre un hemisferio y otro,
+                        aunque ciertas funciones las realiza más un hemisferio que el otro, es decir,
+                        que el funcionamiento es asimétrico.</p>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <img src="images/dominioHemisferiosLaterales/cerebroIzq.jpg" class="img-fluid img-thumbnail mb-5" alt="">
+                    <p class="text-light">El hemisferio izquierdo se especializa principalmente en el proceso y
+                        manejo de la información, es decir, se encarga de descifrar los códigos
+                        fonéticos o simbólicos del lenguaje.</p>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <img src="images/dominioHemisferiosLaterales/cerebroDer.jpg" class="img-fluid img-thumbnail mb-5" alt="">
+                    <p class="text-light mb-5">El hemisferio derecho domina el intelecto, la percepción visual y espacial.
+                        Reconoce caras, voces, melodías y piensa/recuerda en imágenes.
+                        Procesa estímulos más intensos e inmóviles.</p>
+                </div>
+            </div>
+            <div class="row textoInformativo">
+                <div class="col-md-4 mt-5 pt-5">
+                    <img src="images/dominioHemisferiosLaterales/puzzle.jpg" class="img-fluid img-thumbnail mb-5" alt="">
+                    <p class="text-light">Cada hemisferio procesa la información de forma distinta y algunas
+                        personas desarrollamos más las habilidades del izquierdo y otras del
+                        derecho, pero no significa que no podamos desarrollar ambas partes.
+                        También mucho tiene que ver nuestra educación desde la niñez y por qué
+                        tenemos ciertas limitaciones o por qué aún no desarrollamos aquellas
+                        habilidades.</p>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <img src="images/dominioHemisferiosLaterales/cubo.png" class="img-fluid img-thumbnail text-center mb-5" style="width: 80%;">
+                    <p class="text-light">Los rasgos de personalidad que domina el hemisferio izquierdo son:
+                        abstracción, disciplina, organización, lógica, análisis y todo aquello
+                        relacionado el pensamiento vertical.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/dominioHemisferiosLaterales/cerebro4.png" class="img-fluid img-thumbnail mb-5" alt="">
+                    <p class="text-light">Los rasgos de personalidad que presenta el hemisferio derecho son:
+                        expresivos, espontáneos, idealistas, descriptivos, creativos, apasionados y
+                        todo aquello que tenga que ver con el uso de la imaginación y las
+                        emociones.</p>
+                </div>
+            </div>
+            <!--Boton home-->
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#indice" class="mx-auto">
+                        <img src="images/botonHome.png" class="btnHome" alt="">
+                    </a>
+                    <p>Regresar al índice</p>
+                </div>
+            </div>
+            <!--fin botón home-->
+        </div>
+    </section>
+    <!--    End of Hemisferios Cerebrales-->
+
+
+    <!--    Frase section-->
+    <section id="frase" class="py-5 bg-danger">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>Una pequeña frase</strong>
+                    </h1>
+                    <div class="title-underline bg-dark"></div>
+                </div>
+            </div>
+            <!--            End of title-->
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <img src="images/padre.jpg" alt="" class="img-fluid rounded-circle d-none d-md-block">
+                </div>
+                <div class="col-md-6 my-4">
+                    <blockquote class="blockquote text-right">
+                        <p class="text-light">
+                            "El espíritu se agota al concebir algo creativo. En cuanto el espíritu reposa, regresa la ilusión por seguir creando."
+                        </p>
+                        <h1 class="pl-5 blockquote-footer text-left text-light">Pbro. Juan Anaya Oak</h1>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End of frase section-->
+
+    <!--    Footer section-->
+    <footer id="footer" class="bg-dark py-5">
+        <div class="container">
+            <!--           Title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-white mb-0">
+                        <strong>FUENTES</strong>
+                    </h1>
+                    <div class="title-underline bg-primary"></div>
+                </div>
+            </div>
+            <div class="row mt-5 pl-5">
+                <div class="col">
+                    <ul>
+                        <li><p class="mt-2 text-light">Clavijo-Parrilla, J. (2017). Lateralidad hemisférica en el procesamiento emocional.
+                            ISO 690</p></li>
+                        <li><p class="mt-2 text-light">Braidot, N. (2008). Neuromanagement. Ediciones Granica SA.</p></li>
+                        <li><p class="mt-2 text-light">Miller, M., Kibiuk, L. V., & Stuart, D. (2008). Brain facts: A primer on the brain and nervous system</p></li>
+                        <li><p class="mt-2 text-light">Stufflebeam, R. (2008). Neurons, synapses, action potentials, and neurotransmission. Consortium on Cognitive Science Instruction.</p></li>
+                        <li><p class="mt-2 text-light">Terrazas, B. (2019, Septiembre 19). Algunos datos interesantes del cerebro. UNAM Global. Recuperado de https://unamglobal.unam.mx/algunos-datos-interesantes-del-cerebro/</p></li>
+                        <li><p class="mt-2 text-light">Hartshorne, J. K., & Germine, L. T. (2015). When does cognitive functioning peak? The asynchronous rise and fall of different cognitive abilities across the life span. Psychological science, 26(4), 433-443.</p></li>
+                        <li><p class="mt-2 text-light">Prevención Integral. (2020, Agosto 21). Pautas de comunicación según las dominancia cerebrales de Ned Hermann. Recuperado de https://www.prevencionintegral.com/actualidad/noticias/2020/07/22/pautas-comunicacion-segun-dominancias-cerebrales-ned-herrmann</p></li>
+                        <li><p class="mt-2 text-light">Rodriguez, A. (2014, Marzo 11). Conoce el modelo de preferencias cerebrales de Hermann. Recuperado de https://www.utel.edu.mx/blog/rol-personal/conoce-el-modelo-de-preferencias-cerebrales-de-herrmann/</p></li>
+                        <li><p class="mt-2 text-light">¿Para qué es útil el Mapeo Cerebral? (2018, Diciembre 14). Recuperado de https://nepsa.es/para-que-es-util-el-mapeo-cerebral/</p></li>
+                        <li><p class="mt-2 text-light">Hammond, D. C. (2011). What is Neurofeedback: An Update. Journal of Neurotherapy.</p></li>
+                        <li><p class="mt-2 text-light">https://www.16personalities.com/es</p></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--            End of title-->
+            <div class="row">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-danger d-block mx-auto mt-5 mb-3" data-toggle="modal" data-target="#modal">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--   Modal-->
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--                Modal header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">Nuestro proyecto ha finalizado</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--               Modal body-->
+                <div class="modal-body">
+                    <p>Muchas gracias por su atención :)</p>
+                </div>
+                <!--           Modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of modal-->
+
+
+
+
+    <!--   Modal Eli-->
+    <div class="modal fade" id="modalELGT">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--                Modal header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">¿Qué cuadrante cerebral predomina en mí?</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--               Modal body-->
+                <div class="modal-body">
+                    <p>En el test que realicé, salió que mi personalidad es de una animadora, dado que me gusta compartir tiempo con las demás personas y me agrada que se sientan en un ambiente libre y seguro donde todo el mundo pueda divertirse, también porque la personalidad de una animadora es que sus seres queridos se sientan a gusto y puedan confiar en ella para acompañarles en los buenos y malos momentos.
+                    </p>
+                </div>
+                <!--           Modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End of modal Eli-->
+
+        <!--   Modal Daniel-->
+    <div class="modal fade" id="modalVDLM">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--                Modal header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">¿Qué cuadrante cerebral predomina en mí?</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--               Modal body-->
+                <div class="modal-body">
+                    <p>Tras haber realizado el test de personalidad, considero
+                        que el cuadrante que predomina en mí es el frontal izquierdo,
+                         y tengo inteligencia lógica. No puedo estar más de acuerdo con esta
+                         afirmación, debido a que para mí lo más importante es el uso de la razón,
+                          y creo firmemente que tomar decisiones objetivas en vez de subjetivas nos 
+                          puede llevar a tener mejores resultados. Soy bueno en matemáticas, pero bastante
+                          malo en cuestiones artísticas y/o humanísticas. Me desenvuelvo mejor trabajando
+                          solo o en su defecto, con gente de mi confianza.
+                    </p>
+                    <p>
+                        El tipo de pensamiento lógico queda definido como:
+                    </p>
+                    <p>
+                        El tipo de personalidad Lógica es bastante raro y representa solo el tres por ciento de la población,
+                         lo cual es definitivamente bueno para ellos, ya que no hay nada que les haga ser menos felices que 
+                         ser “comunes”. Los que tienen personalidad Lógica se enorgullecen de su inventiva y su creatividad, 
+                         su perspectiva única y su potente intelecto. Conocidos generalmente como el filósofo, el arquitecto 
+                         o el profesor soñador, los Lógicos han sido responsables de muchos descubrimientos científicos a lo 
+                         largo de la historia. Les encantan los patrones y detectar discrepancias entre declaraciones casi 
+                         podría considerarse una afición; por lo tanto, es una mala idea mentirle a una persona con personalidad
+                          lógica. Esto hace que sea irónico que la palabra de un Lógico siempre deba cogerse con pinzas; no es 
+                          que sean deshonestos sino que las personas con personalidad Lógica tienden a compartir pensamientos
+                           que no se han desarrollado completamente y a utilizar a otros como altavoz para las ideas y teorías
+                            en un debate en contra de sí mismos y no como compañeros reales de conversación.
+                    </p>
+                </div>
+                <!--           Modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End of modal Daniel-->
+
+        <!--   Modal Gail-->
+    <div class="modal fade" id="modalGKLM">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--                Modal header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">¿Qué cuadrante cerebral predomina en mí?</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--               Modal body-->
+                <div class="modal-body">
+                    <p>De acuerdo al test de personalidad mi cuadrante predominante es el Basal derecho, ya que, están presentes capacidades para ser empático, construir confianza, mantener el espíritu en los equipos, desarrollar el sentimiento de pertenencia, además de que son personas intuitivas.
+                    </p>
+                    <p>
+                        A continuación se detalla la personalidad de un Protagonista:
+                        Los Protagonistas son líderes natos, llenos de pasión y carisma.
+                         Representados por un dos por ciento de la población, estas personalidades
+                          suelen ser nuestros políticos, nuestros entrenadores y nuestros
+                        maestros, quienes se superan e inspiran a otros a superarse y 
+                        hacer el bien en el mundo. Con una confianza natural que genera 
+                        influencia, las personas con el tipo de personalidad de Protagonista
+                         sienten gran orgullo y alegría al guiar a otros para trabajar 
+                         juntos con el fin de mejorarse a sí mismos y a la comunidad.
+
+                    </p>
+                </div>
+                <!--           Modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of modal Gail-->
+
+    <!--   Modal Angie-->
+    <div class="modal fade" id="modalAPB">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--                Modal header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">¿Qué cuadrante cerebral predomina en mí?</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--               Modal body-->
+                <div class="modal-body">
+                    <p>Con base en los cuadrantes del cerebro y después de haber realizado un test de personalidad, considero que el cuadrante que predomina en mi es el Basal Derecho, debido a que mi personalidad es parte de los llamados Diplomáticos, siendo más específica, mi personalidad es Mediadora. Además, si tomamos en cuenta las características vistas sobre los cuadrantes, el lado derecho basal, tiene características de empatía, confianza y espíritu de equipo.
+                    </p>
+                    <p>
+                        A continuación se detalla la personalidad de un mediador:
+                    </p>
+                    <p>
+                        Los individuos con personalidad de Mediador son verdaderos idealistas, siempre están buscando algún atisbo de bondad, incluso en las peores personas y en los peores acontecimientos, y tratan de encontrar formas de hacer las cosas mejor. Aunque a veces son considerados tranquilos, reservados, o incluso tímidos, los Mediadores tienen una llama interior y una pasión que realmente brillan. Constituyendo sólo el 4% de la población, el riesgo de sentirse incomprendidos es desafortunadamente alto para las personas con personalidad de Mediador, pero cuando encuentran personas con ideas afines, la armonía que sienten será una fuente de alegría e inspiración.
+                    </p>
+                </div>
+                <!--           Modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of modal Angie-->
+
+    <!--   Modal Annie-->
+    <div class="modal fade" id="modalASTL">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--                Modal header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">¿Qué cuadrante cerebral predomina en mí?</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--               Modal body-->
+                <div class="modal-body">
+                    <p>El cuadrante del cerebro que pienso que predomina en mí es el Frontal derecho, ya que son individuos con pensamiento imaginativo y espacial. Su fuerte: innovación y creatividad, toma de riesgo, alta capacidad en solución de problemas.
+
+                    </p>
+                    <p>A continuación se detalla la personalidad de un innovador:
+                        
+                        El individuo con personalidad de Innovador destaca en el proceso de deshilachar los argumentos, creencias y dejar los jirones a la deriva en el viento para que todos vean. A diferencia de otras personalidades más decididas, los Innovadores no hacen esto porque estén tratando de lograr algún propósito más profundo o alguna meta estratégica sino porque es divertido. Aman el proceso de combate mental, ya que les da la oportunidad de ejercer su rápido ingenio sin esfuerzo, su amplia base de conocimientos acumulados y su capacidad para conectar ideas dispares para demostrar sus puntos.
+                        </p>
+                </div>
+                <!--           Modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of modal Annie-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
